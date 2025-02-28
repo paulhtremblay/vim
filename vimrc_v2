@@ -1,0 +1,28 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+
+let $MYHOME=expand('<sfile>:p:h:h')
+map <Space> <PageDown>
+map <Backspace> <PageUp>
+set shortmess+=A
+set hidden
+" backup to ~/.tmp
+set backupdir=~/.backup//
+set directory=~/.swap//
+set undodir=~/.undo//
+"filetype plugin on
+filetype plugin indent on
+set incsearch
+set encoding=utf8
+set nobomb
+set number
+set textwidth=5000
+set tabstop=4
+set shiftwidth=4
+
+nnoremap <silent> <F5> :call SaveAndExecutePython()<CR>
+vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
+
+
+let buftabline_numbers=1
