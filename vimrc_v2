@@ -20,9 +20,15 @@ set number
 set textwidth=5000
 set tabstop=4
 set shiftwidth=4
+syntax on
 
 nnoremap <silent> <F5> :call SaveAndExecutePython()<CR>
 vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
 
 
 let buftabline_numbers=1
+
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
