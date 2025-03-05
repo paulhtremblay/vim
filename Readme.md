@@ -11,6 +11,7 @@ git
 ====
 ```
 
+#have to install git with sudo apt install git
 git config --global core.editor vim
 
 ```
@@ -18,11 +19,12 @@ git config --global core.editor vim
 vim
 ========================
 ```
+sudo apt install vim #for linux 
+
 mkdir -p ~/.backup
 mkdir -p ~/.swap
 mkdir -p ~/.undo
 "create a file ~/.vimrc/vimrc with one line, pointing to this file: source ~/vim/vimrc2
-sudo apt install vim #for linux 
 mkdir -p ~/.vim/pack/plugins/start
 git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/pack/plugins/start/supertab
 git clone --depth=1 git@github.com:ap/vim-buftabline.git ~/.vim/pack/plugins/start/vim-buftabline
