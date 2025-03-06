@@ -57,9 +57,9 @@ linux
 /opt/python/3.12.4/bin/pip3.12 install virtualenv
 /opt/python/3.12.4/bin/pip3.12 install virtualenvwrapper
 #in .bashrc
-source /home/henry/.local/bin/virtualenvwrapper.sh
 export VIRTUALENVWRAPPER_PYTHON=/opt/python/3.12.4/bin/python3.12
 export VIRTUALENVWRAPPER_VIRTUALENV=/home/henry/.local/bin/virtualenv
+source /home/henry/.local/bin/virtualenvwrapper.sh
 ```
 
 msys2
@@ -96,3 +96,9 @@ pacman -S vim
 pacman -S openssh
 pacman -S git
 ```
+
+docker
+=======
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+
