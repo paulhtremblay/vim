@@ -102,3 +102,12 @@ docker
 sudo groupadd docker
 sudo usermod -aG docker ${USER}
 
+notes
+=======
+
+ssh-keyscan -t rsa ssh.dev.azure.com >> ~/.ssh/known_hosts
+
+resolution
+============
+
+ set-vmvideo Ubuntu -horizontalresolution:1920 -verticalresolution:1080 -resolutiontype single
