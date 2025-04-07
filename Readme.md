@@ -111,3 +111,8 @@ resolution
 ============
 
  set-vmvideo Ubuntu -horizontalresolution:1920 -verticalresolution:1080 -resolutiontype single
+
+Autonomous DWH
+==================
+
+https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/autonomous-database-container-free.html
