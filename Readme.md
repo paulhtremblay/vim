@@ -7,6 +7,12 @@ cat ~/.ssh/id_ed25519.pub
 ```
 [go to systems in github to upload]
 
+`sudo apt-get install openssh-server`
+
+`touch ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys`
+
+[add public key to authorized_keys]
+
 git
 ====
 ```
