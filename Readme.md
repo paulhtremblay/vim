@@ -25,6 +25,10 @@ git config --global core.editor vim
 vim
 ========================
 ```
+#older versions of ubuntu
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+
 sudo apt install vim #for linux 
 
 mkdir -p ~/.backup
